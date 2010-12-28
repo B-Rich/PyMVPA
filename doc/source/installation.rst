@@ -434,7 +434,10 @@ packages instead. However, if there are no binary packages for your system, or
 you want to try a new (unreleased) version of PyMVPA, you can easily build
 PyMVPA on your own. Any recent GNU/Linux distribution should be capable of doing
 it (e.g. RedHat). Additionally, building PyMVPA also works on Mac OS X and
-Windows systems.
+Windows systems. Note that in order to build PyMVPA from sources you need to
+install Python development files first (header files etc.). These files are
+usually available from separate packages named `python-dev` (on Debian/Ubuntu)
+or `python-devel` (on OpenSuse and Fedora).
 
 .. _PyMVPA project website: http://www.pymvpa.org
 
